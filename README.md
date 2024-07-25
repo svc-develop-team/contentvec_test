@@ -7,6 +7,7 @@
 | 03   | chinese-hubert-large | 12    | None        | Default    | WenetSpeech4TTS + m4singer + opensinger + opencpop + popcs                                 | 375h  |
 | 04   | chinese-hubert-large | 12    | None        | + Noise    | WenetSpeech4TTS + m4singer + opensinger + opencpop + popcs                                 | 375h  |
 | 05   | contentvec           | 12    | contentvec  | + Noise    | WenetSpeech4TTS + m4singer + opensinger + opencpop + popcs                                 | 375h  |
+| 06   | contentvec           | 12    | None        | + Noise    | WenetSpeech4TTS + m4singer + opensinger + opencpop + popcs                                 | 375h  |
 
 # 0x1：总结
 
@@ -15,3 +16,4 @@
 03. loss可以收敛，效果不行
 04. loss可以收敛，效果未知
 05. loss不能收敛
+06. loss可以收敛，效果未知
